@@ -1,4 +1,7 @@
-<scheme name="SolarizedDark" version="1" parent_scheme="Default">
+<scheme name="SolarizedDark" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="10483e" />
     <option name="ANNOTATIONS_COLOR" value="869798" />
@@ -24,7 +27,6 @@
     <option name="DOCUMENTATION_COLOR" value="" />
     <option name="DOC_COMMENT_GUIDE" value="14483e" />
     <option name="DOC_COMMENT_LINK" value="4183cc" />
-    <option name="ERROR_HINT" value="" />
     <option name="FILESTATUS_ADDED" value="49955a" />
     <option name="FILESTATUS_COPIED" value="49955a" />
     <option name="FILESTATUS_DELETED" value="60767d" />
@@ -54,7 +56,6 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="496e7d" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="25566b" />
     <option name="INDENT_GUIDE" value="e3c4a" />
-    <option name="INFORMATION_HINT" value="" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3d59638c" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="4e67708c" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="4e67708c" />
@@ -64,8 +65,6 @@
     <option name="METHOD_SEPARATORS_COLOR" value="2b4c56" />
     <option name="MODIFIED_LINES_COLOR" value="c4357" />
     <option name="NOTIFICATION_BACKGROUND" value="3359" />
-    <option name="PROMOTION_PANE" value="" />
-    <option name="QUESTION_HINT" value="" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RECENT_LOCATIONS_SELECTION" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="503d00" />
@@ -653,6 +652,9 @@
         <option name="FOREGROUND" value="ff7f7a" />
       </value>
     </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE">
+      <value />
+    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
         <option name="EFFECT_COLOR" value="3b5760" />
@@ -662,6 +664,7 @@
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ff7f7a" />
+        <option name="BACKGROUND" value="2b36" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -690,7 +693,7 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -1218,6 +1221,18 @@
       <value>
         <option name="FOREGROUND" value="d33682" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JSON.COLON">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="7ca5c5" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME">
@@ -2872,7 +2887,12 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="7ca5c5" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -2882,7 +2902,8 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="60767d" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_TAG">
@@ -2892,7 +2913,8 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="7ca5c5" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">
